@@ -57,16 +57,17 @@
         </ul>
       </nav>
     </div>
-    <div v-else class="text-center my-4">
-      <p class="mb-3">There are no posts.</p>
-      <button
-        type="button"
-        class="btn btn-primary"
-        @click="this.$router.push('/post')"
-      >
-        <i class="fa-solid fa-plus"></i> Create Post
-      </button>
-    </div>
+    <div v-else class="d-flex flex-column  align-items-center my-4" style="height: 100vh;">
+  <p class="mb-3">There are no posts.</p>
+  <button
+    type="button"
+    class="btn btn-primary"
+    @click="this.$router.push('/post')"
+  >
+    <i class="fa-solid fa-plus"></i> Create Post
+  </button>
+</div>
+
   </div>
 </template>
 
