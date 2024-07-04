@@ -26,7 +26,7 @@
       <div class="col-md-6 d-flex align-items-end">
         <button type="button" class="btn btn-primary me-2" @click="startTimer" :disabled="timer">Start</button>
         <button type="button" class="btn btn-secondary me-2" @click="stopTimer" :disabled="!timer">Stop</button>
-        <button type="button" class="btn btn-secondary" @click="saveTimer">Save</button>
+        <button type="button" class="btn btn-success" @click="saveTimer">Save</button>
       </div>
       <div class="col-12">
         <button type="submit" class="btn btn-success mt-3">{{ isEditing ? 'Update' : 'Save' }}</button>
